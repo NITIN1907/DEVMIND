@@ -20,6 +20,9 @@ SecureCloud is a secure file storage and sharing platform built with Node.js, My
 - **Real-time:** Socket.io
 - **Documentation:** Swagger (OpenAPI)
 - **Testing:** Jest, Supertest
+  
+## License
+This project is licensed under the [MIT License](LICENSE).
 
 ## Setup Instructions
 
