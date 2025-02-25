@@ -1,24 +1,29 @@
+# SecureCloud
 
----
+SecureCloud is a secure file storage and sharing platform built with Node.js, MySQL, React.js, and more. It supports user authentication, file upload/download, real-time notifications, and secure file sharing.
 
-## **2️⃣ Final Code Review & Cleanup**
+## Features
 
-- **Refactor:**  
-  Go through your code to refactor any duplicate logic or poorly named variables.
-- **Comments:**  
-  Add comments and JSDoc annotations where necessary.
-- **Remove Unused Files:**  
-  Delete any placeholder files or commented-out code.
+- User registration and authentication with JWT.
+- Secure file upload and download using Multer.
+- File sharing with customizable permissions.
+- Real-time notifications using Socket.io.
+- Comprehensive API documentation with Swagger.
+- Rate limiting and input validation for security.
+- Centralized error handling and logging.
 
----
+## Tech Stack
 
-## **3️⃣ Version Control & Tagging**
+- **Backend:** Node.js, Express.js, MySQL
+- **Frontend:** React.js
+- **DevOps:** Docker, Jenkins (optional), CI/CD
+- **Real-time:** Socket.io
+- **Documentation:** Swagger (OpenAPI)
+- **Testing:** Jest, Supertest
 
-- **Commit Your Changes:**  
-  Make sure your latest changes are committed to Git.
-- **Version Tagging:**  
-  Tag a release (e.g., `v1.0.0`) so you have a reference for your stable version.
+## Setup Instructions
 
-```bash
-git tag -a v1.0.0 -m "Release version 1.0.0"
-git push origin v1.0.0
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/securecloud.git
+   cd securecloud
